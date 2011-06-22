@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C5427213B2642400B92454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5427113B2642400B92454 /* UIKit.framework */; };
+		23C5427413B2642400B92454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5427313B2642400B92454 /* Foundation.framework */; };
+		23C5427613B2642400B92454 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5427513B2642400B92454 /* CoreGraphics.framework */; };
+		23C5427C13B2642400B92454 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23C5427A13B2642400B92454 /* InfoPlist.strings */; };
+		23C5427F13B2642400B92454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C5427E13B2642400B92454 /* main.m */; };
+		23C5428213B2642400B92454 /* JSMazeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C5428113B2642400B92454 /* JSMazeAppDelegate.m */; };
+		23C5428513B2642400B92454 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C5428313B2642400B92454 /* MainWindow.xib */; };
+		23C5428813B2642400B92454 /* JSMazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C5428713B2642400B92454 /* JSMazeViewController.m */; };
+		23C5428B13B2642400B92454 /* JSMazeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C5428913B2642400B92454 /* JSMazeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23C5426D13B2642400B92454 /* JSMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C5427113B2642400B92454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23C5427313B2642400B92454 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23C5427513B2642400B92454 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23C5427913B2642400B92454 /* JSMaze-Info.plist */ = {isa = PBXFileReference; path = "JSMaze-Info.plist"; sourceTree = "<group>"; };
+		23C5427B13B2642400B92454 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23C5427D13B2642400B92454 /* JSMaze-Prefix.pch */ = {isa = PBXFileReference; path = "JSMaze-Prefix.pch"; sourceTree = "<group>"; };
+		23C5427E13B2642400B92454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C5428013B2642400B92454 /* JSMazeAppDelegate.h */ = {isa = PBXFileReference; path = JSMazeAppDelegate.h; sourceTree = "<group>"; };
+		23C5428113B2642400B92454 /* JSMazeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMazeAppDelegate.m; sourceTree = "<group>"; };
+		23C5428413B2642400B92454 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		23C5428613B2642400B92454 /* JSMazeViewController.h */ = {isa = PBXFileReference; path = JSMazeViewController.h; sourceTree = "<group>"; };
+		23C5428713B2642400B92454 /* JSMazeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMazeViewController.m; sourceTree = "<group>"; };
+		23C5428A13B2642400B92454 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSMazeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C5426A13B2642400B92454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C5427213B2642400B92454 /* UIKit.framework in Frameworks */,
+				23C5427413B2642400B92454 /* Foundation.framework in Frameworks */,
+				23C5427613B2642400B92454 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C5426213B2642400B92454 = {
+			isa = PBXGroup;
+			children = (
+				23C5427713B2642400B92454 /* JSMaze */,
+				23C5427013B2642400B92454 /* Frameworks */,
+				23C5426E13B2642400B92454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C5426E13B2642400B92454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C5426D13B2642400B92454 /* JSMaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C5427013B2642400B92454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C5427113B2642400B92454 /* UIKit.framework */,
+				23C5427313B2642400B92454 /* Foundation.framework */,
+				23C5427513B2642400B92454 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23C5427713B2642400B92454 /* JSMaze */ = {
+			isa = PBXGroup;
+			children = (
+				23C5428013B2642400B92454 /* JSMazeAppDelegate.h */,
+				23C5428113B2642400B92454 /* JSMazeAppDelegate.m */,
+				23C5428313B2642400B92454 /* MainWindow.xib */,
+				23C5428613B2642400B92454 /* JSMazeViewController.h */,
+				23C5428713B2642400B92454 /* JSMazeViewController.m */,
+				23C5428913B2642400B92454 /* JSMazeViewController.xib */,
+				23C5427813B2642400B92454 /* Supporting Files */,
+			);
+			path = JSMaze;
+			sourceTree = "<group>";
+		};
+		23C5427813B2642400B92454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C5427913B2642400B92454 /* JSMaze-Info.plist */,
+				23C5427A13B2642400B92454 /* InfoPlist.strings */,
+				23C5427D13B2642400B92454 /* JSMaze-Prefix.pch */,
+				23C5427E13B2642400B92454 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C5426C13B2642400B92454 /* JSMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C5428E13B2642400B92454 /* Build configuration list for PBXNativeTarget "JSMaze" */;
+			buildPhases = (
+				23C5426913B2642400B92454 /* Sources */,
+				23C5426A13B2642400B92454 /* Frameworks */,
+				23C5426B13B2642400B92454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSMaze;
+			productName = JSMaze;
+			productReference = 23C5426D13B2642400B92454 /* JSMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C5426413B2642400B92454 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 23C5426713B2642400B92454 /* Build configuration list for PBXProject "JSMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23C5426213B2642400B92454;
+			productRefGroup = 23C5426E13B2642400B92454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C5426C13B2642400B92454 /* JSMaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C5426B13B2642400B92454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C5427C13B2642400B92454 /* InfoPlist.strings in Resources */,
+				23C5428513B2642400B92454 /* MainWindow.xib in Resources */,
+				23C5428B13B2642400B92454 /* JSMazeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C5426913B2642400B92454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C5427F13B2642400B92454 /* main.m in Sources */,
+				23C5428213B2642400B92454 /* JSMazeAppDelegate.m in Sources */,
+				23C5428813B2642400B92454 /* JSMazeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23C5427A13B2642400B92454 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C5427B13B2642400B92454 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23C5428313B2642400B92454 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C5428413B2642400B92454 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		23C5428913B2642400B92454 /* JSMazeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C5428A13B2642400B92454 /* en */,
+			);
+			name = JSMazeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C5428C13B2642400B92454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		23C5428D13B2642400B92454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		23C5428F13B2642400B92454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSMaze/JSMaze-Prefix.pch";
+				INFOPLIST_FILE = "JSMaze/JSMaze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23C5429013B2642400B92454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSMaze/JSMaze-Prefix.pch";
+				INFOPLIST_FILE = "JSMaze/JSMaze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C5426713B2642400B92454 /* Build configuration list for PBXProject "JSMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C5428C13B2642400B92454 /* Debug */,
+				23C5428D13B2642400B92454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C5428E13B2642400B92454 /* Build configuration list for PBXNativeTarget "JSMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C5428F13B2642400B92454 /* Debug */,
+				23C5429013B2642400B92454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C5426413B2642400B92454 /* Project object */;
+}
